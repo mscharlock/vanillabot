@@ -28,8 +28,20 @@ if (program.two) console.log('Ok, you have chosen ' + dronesArr[1]);
 if (program.three) console.log('Ok, you have chosen ' + dronesArr[2]);
 
 
+//Possible solution for nested commands
+// program.on('--help', function(){
+//   console.log('  Examples:');
+//   console.log('');
+//   console.log('    $ custom-help --help');
+//   console.log('    $ custom-help -h');
+//   console.log('');
+// });
+//
+// program.parse(process.argv);
 
-//using the demo from commander
+
+
+//using the demo from commander: https://github.com/tj/commander.js
 // vanillaBot
 //   .version('0.1.0')
 //   .option('-d, --drones', 'Explore which drones we have available')
